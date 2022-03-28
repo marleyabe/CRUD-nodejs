@@ -28,7 +28,7 @@ todosRoutes.get('/api/read', async (req, res) => {
         })
 })
 
-module.exports = todosRoutes
+
 
 // Update
 // http://localhost:3000/api/update
@@ -61,3 +61,5 @@ todosRoutes.delete('/api/delete/:id', async (req, res) => {
             res.send(err)
         })
 })
+
+module.exports = todosRoutes
